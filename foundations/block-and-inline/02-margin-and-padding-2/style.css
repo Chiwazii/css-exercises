@@ -2,7 +2,9 @@ body {
   background: #eee;
   font-family: sans-serif;
 }
-
+* {
+  padding: 10px;
+}
 .card {
   width: 400px;
   background: #fff;
@@ -19,6 +21,8 @@ body {
 
 .button-container {
   background: #e3f4ff;
+  margin-top: 16px;
+  align-items: center;
 }
 
 button {
