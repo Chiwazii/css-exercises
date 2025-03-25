@@ -64,4 +64,9 @@ ul {
   align-items: center;
   justify-content: center;
   height: 100vh;
+  gap: 15px;
+}
+
+button {
+  padding: 8px 10px;
 }
