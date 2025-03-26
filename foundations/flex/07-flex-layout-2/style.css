@@ -56,10 +56,23 @@ ul {
   
 }
 
+.cards {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  /* align-content: center; */
+  flex-wrap: wrap;
+  padding: 48px;
+}
+
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  padding: 48px;
+  margin: 20px;
+  height: 300px;
+  width: 300px;
 }
 
 .container {
