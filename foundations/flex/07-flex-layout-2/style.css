@@ -11,12 +11,12 @@ body {
   height: 72px;
   background: darkmagenta;
   color: white;
-  font-size: 40px;
-  font-weight: bolder;
+  font-size: 32px;
+  font-weight: 900;
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  padding-left: 10px;
+  padding-left: 16px;
 }
 
 .footer {
@@ -36,15 +36,24 @@ body {
   display: flex; 
   flex-direction: column;
   color: white;
+  font-size: 24px;
+  flex-shrink: 0;
 }
 
+
 ul {
+  display: flex;
+  flex-direction: column;
   list-style: none;
+  gap: 16px;
+  /* padding: 16px;  */
+
 }
 
 .sidebar a {
   text-decoration: none;
   color: white;
+  
 }
 
 .card {
